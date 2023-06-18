@@ -1,5 +1,5 @@
 function extractLanguage(str) {
-  return str.substring(0,2);
+  return str.substring(0,3);
 }
 
 console.log(extractLanguage('en_US.UTF-8'));  // 'en'
