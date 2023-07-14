@@ -1,5 +1,6 @@
-function extractRegion(str) {
-  return str.substring(3,5);
+function extractRegion(string) {
+  let words = string.split("_");
+  return words[1].substring(0,2);
 }
 
 console.log(extractRegion('en_US.UTF-8'));  // 'US'
