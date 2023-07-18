@@ -7,7 +7,7 @@ function recipient() {
 }
 
 function greet() {
-  console.log(greeting() + ', ' + recipient() + '!');
+  console.log(greeting() + ", " + recipient() + "!");
 }
 
 greet();

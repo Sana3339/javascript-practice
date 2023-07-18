@@ -4,8 +4,13 @@ let vocabulary = [
   ['excited', 'eager', 'enthused', 'animated']
 ];
 
-for (let i = 0; i < vocabulary.length; i++) {
-  for (let j = 0; j < vocabulary[0].length; j++) {
-    console.log(vocabulary[i][j]);
+// Expected output:
+// happy
+// cheerful
+// merry
+// etc...
+for (let idx = 0; idx < vocabulary.length; idx += 1) {
+  for (let ydx = 0; ydx < vocabulary[0].length; ydx += 1) {
+    console.log(vocabulary[idx][ydx]);
   }
 }

@@ -1,6 +1,7 @@
-function isBlank(str) {
-  return str.length === 0;
+function isBlank(string1) {
+ return (string1.length === 0);
 }
+
 
 console.log(isBlank('mars')); // false
 console.log(isBlank('  '));   // false

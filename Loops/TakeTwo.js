@@ -1,3 +1,3 @@
-for (let i = 1; i <= 100; i++) {
-  console.log(i*2);
+for (let idx = 1; idx <= 100; idx += 1) {
+  console.log(idx * 2);
 }

@@ -1,4 +1,3 @@
-str = 'A pirate I was meant to be!\n' +
-'Trim the sails and roam the sea!';
+str = "A pirate I was meant to be! \nTrim the sails and roam the sea!";
 
 console.log(str);

@@ -1,15 +1,17 @@
+function capitalize(str1) {
 
-let string = 'launch school tech & talk';
+  let wordList = str1.split(' ');
+  let res = [];
 
-function capitalizedWords(string) {
-  wordList = string.split(' ');
-  let capitalizedWords = [];
+  for (let idx = 0; idx < wordList.length; idx += 1) {
+    let firstLetter = wordList[idx][0].toUpperCase();
+    let word = firstLetter + wordList[idx].slice(1);
+    res.push(word);
 
-  for (let i = 0; i < wordList.length; i++) {
-    let word = wordList[i];
-    capitalizedWords.push(word[0].toUpperCase() + word.slice(1));
   }
-  return capitalizedWords.join(' ');
+  return res.join(' ');
 }
 
-console.log(capitalizedWords(string));
+str1 = 'launch school tech & talk';
+
+console.log(capitalize(str1))

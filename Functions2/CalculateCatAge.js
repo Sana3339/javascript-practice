@@ -1,21 +1,15 @@
-function catAge(years) {
-  let catAge = 0;
-  if (years >= 1) {
-    catAge += 15;
-    years -=1;
-  }
+function catAge(humanYears) {
 
-  if (years >= 1) {
-    catAge += 9;
-    years -=1;
+  switch(humanYears) {
+    case 0:
+      return 0;
+    case 1:
+      return 15;
+    case 2:
+      return 24;
+    default:
+      return 24 + (humanYears - 2) * 4;
   }
-
-  while (years > 0) {
-    catAge += 4;
-    years--;
-  }
-
-  return catAge;
 }
 
 console.log(catAge(0)); // 0

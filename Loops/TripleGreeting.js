@@ -1,5 +1,5 @@
 let greeting = 'Aloha!';
 
-for (let i = 0; i < 3; i++) {
+for (let idx = 0; idx < 3; idx++) {
   console.log(greeting);
 }
